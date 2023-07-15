@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS */
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.iphone-frame {
+  position: relative;
+  width: 320px;
+  height: 640px;
+  background-color: #000;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.screen {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  bottom: 40px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.text {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Media query for desktop view */
+@media only screen and (min-width: 768px) {
+  .container {
+    justify-content: flex-start;
+  }
+
+  .iphone-frame {
+    margin-left: 20px;
+  }
+}
+
