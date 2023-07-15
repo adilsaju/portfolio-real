@@ -8,8 +8,9 @@ function App() {
       <div className="iphone-frame">
         <div className="screen">
           <div className="text">
-            <h1>Sample Text</h1>
-            <p>This is some sample text inside the iPhone screen.</p>
+            <h1 className='script-font'>Adil Saju</h1>
+            <p>welcome to my unique resume😄</p>
+            <p>Navigate to see my experience</p>
           </div>
         </div>
       </div>
