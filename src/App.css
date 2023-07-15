@@ -75,6 +75,17 @@ body {
   padding: 20px;
 }
 
+/* TODO:  */
 .script-font {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding: 1rem;
+  border-radius: 2rem;
+  /* min-height: 3rem; */
 }

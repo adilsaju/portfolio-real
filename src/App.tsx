@@ -11,6 +11,8 @@ function App() {
             <h1 className='script-font'>Adil Saju</h1>
             <p>welcome to my unique resume😄</p>
             <p>Navigate to see my experience</p>
+
+            <button className='btn'>Continue 👉🏻</button>
           </div>
         </div>
       </div>
